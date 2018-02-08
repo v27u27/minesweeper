@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:weightSum="2"
+        android:orientation="horizontal"
+        android:layout_height="45dp">
+        <TextView
+            android:id="@+id/mineBoard"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:background="#85D2D8"
+            android:backgroundTint="#DEC9C2"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:maxLines="1"
+            android:text=""
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="2dp"
+            android:textColor="@color/flagBoard"
+            android:textSize="27sp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="27sp"
+            android:maxLines="1"
+            android:id="@+id/scoreBoard"
+            android:text="0"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="3dp"
+            android:layout_gravity="center_horizontal"
+            android:background="#BDABA5"
+            android:layout_height="match_parent" />
+        </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/mainLayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="2dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+    </LinearLayout>
+</LinearLayout>

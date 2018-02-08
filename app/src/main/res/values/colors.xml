@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#50A1A7</color>
+    <color name="colorPrimaryDark">#5AB5C9</color>
+    <!--<color name="flagged">#ADE7B7</color>-->
+    <color name="visible">#99D686</color>
+    <color name="flagBoard">#0D8686</color>
+    <!--<color name="btnColor">#BDC8C8</color>-->
+    <color name="textColor">#22575A</color>
+    <color name="falseFlagged">#438796</color>
+    <color name="bombed">#ECA435</color>
+    <color name="colorAccent">#5AB5C9</color>
+</resources>

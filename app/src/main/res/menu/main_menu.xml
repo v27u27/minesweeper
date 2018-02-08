@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="New Game"
+        app:showAsAction="always"
+        android:id="@+id/newGame" />
+
+    <item android:title="Settings"
+        android:id="@+id/settings">
+        <menu>
+            <item android:title="Level">
+                <menu>
+                    <group android:checkableBehavior="single">
+                        <item android:title="Easy"
+                            android:checked="true"
+                            android:id="@+id/levelEasy"/>
+                        <item android:title="Medium"
+                            android:id="@+id/levelMed"/>
+                        <item android:title="Hard"
+                            android:id="@+id/levelHard"/>
+                    </group>
+                </menu>
+            </item>
+
+
+            <item android:checkable="true"
+                android:title="Sound"
+                android:checked="true"
+                android:id="@+id/sound" />
+
+            <item android:checkable="true"
+                android:title="Auto Rotation"
+                android:checked="false"
+                android:id="@+id/rotation"/>
+        </menu>
+    </item>
+
+    <item android:title="Help"
+        android:id="@+id/help"/>
+</menu>
